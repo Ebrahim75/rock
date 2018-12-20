@@ -35,9 +35,8 @@ client.user.setStatus("online")
 });
  
  
-client.login('NTI1NDU4MzU2MTY5ODY3MjY3.Dv27dg.VkrYgCBHSup3peRlkRsKQ8aG0Rk
+client.login('NTI1NDU4MzU2MTY5ODY3MjY3.Dv27dg.VkrYgCBHSup3peRlkRsKQ8aG0Rk');
 
-');
              client.on('guildMemberAdd', member => {
   member.guild.fetchInvites().then(guildInvites => {
     const ei = invites[member.guild.id];
